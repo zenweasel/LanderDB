@@ -14,6 +14,6 @@ Usage
 
     
     data = db.find("table", "all") # Returns all data in a table
-    print data # Returns [{u'data': u'blah'}, {u'data': u'AHH'}]
+    print data # Returns [{"data": "blah"}, {"data": "AHH"}]
 ````
 
