@@ -1,6 +1,7 @@
 Usage
 =====
 
+```python
     import landerdb
     
     db = landerdb.Connect("database")
@@ -13,6 +14,6 @@ Usage
 
     
     data = db.find("table", "all") # Returns all data in a table
-    print data # Returns [{"data":"blah"}, {"data":"blah"}]
-    
+    print data # Returns [{"data": "blah"}, {"data": "AHH"}]
+````
 
